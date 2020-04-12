@@ -1,0 +1,136 @@
+.{
+  margin:0px;
+  padding:0px;
+  box-sizing:border-box;
+}
+
+header{
+  background-image:linear-gradient(rgba(0,0,0,0.65),rgba(0, 0, 0,0.35),rgba(0,0,0,0)),url(bg.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  height:100vh
+}
+.row
+{
+  max-width: 1180px;
+  margin: 0 auto;
+}
+.logo
+{
+  height: 120px;
+  width:auto;
+  float: left;
+  margin-top: 20px;
+
+
+}
+
+body{
+  font-size: 20px;
+color: white;
+font-family: 'Flamenco', cursive;
+}
+
+.main-nav
+{
+  float: right;
+  margin-top: 20px;
+   flex-direction: row;
+}
+
+.clearfix:after{
+  content:".";
+  visibility:hidden;
+  display:block;
+  height: 0px;
+  clear:both;
+
+}
+.main-nav li{
+  display:inline-block;
+  margin-left: 40px;
+
+
+
+}
+
+
+.main-nav li a{
+
+  text-decoration: none;
+  color: #fff;
+  font-size: 25px;
+  font-weight: 100;
+
+
+}
+
+.main-nav li a:hover{
+  border-bottom: 3px solid white;
+
+
+}
+
+
+.main-content{
+
+  width:1180px;
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  color: #fff;
+
+}
+
+
+.font{
+  font-size: 30px;
+  word-spacing: 5px;
+  padding-bottom: 10px;
+  font-weight: lighter;
+  color: #fff;
+  text-decoration: none;
+
+  
+}
+.btn
+{
+  padding:10px 40px;
+  font-weight: lighter;
+  text-decoration:none;
+  text-transform: uppercase;
+  border-radius: 200px;
+  transition: background-color 0.2s,border 0.2s,color 0.2;
+  
+
+}
+.btn-1
+{
+background-color: transparent;
+color: purple;
+margin-right:15px;
+border:1px solid;
+
+
+}
+
+.btn-1:hover{
+  background-color: white;
+
+}
+.btn-2
+{
+
+  background-color: transparent;
+  color:white;
+  border:1px solid;
+}
+.btn-2:hover{
+  background-color: purple;
+
+}
+#arvind:hover{
+  color: purple;
+}
